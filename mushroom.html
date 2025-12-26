@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+    <title> The Recipe Room </title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">The Recipe Room</div>
+        <div class="nav-bar">
+            <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#recipe">Recipes</a></li>
+              <li><a href="index.html#categories">Categories</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="recipe.html">Pav Bhaji</a>
+                  <a href="mousse.html">Mousse</a>
+                  <a href="chickenlollipop.html">Chicken lollipops</a>
+                  <a href="samosa.html">Samosa</a>
+                  <a href="manchurian.html">Manchurian</a>
+                  <a href="khandvi.html">Khandvi</a>
+                </div>
+              </div></li>
+              <li><a href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="page">
+        <div class="recipe-page">
+          <section class="recipe-hero">
+            <img
+              src="mushroom.jpg" class="img recipe-hero-img"
+            />
+            <article class="recipe-info">
+              <h2>Mushroom Risotto</h2>
+              <p>
+                Mushroom risotto is a popular Italian dish known for its creamy, rich, and comforting flavors. It's made using Arborio rice, a type of short-grain rice that is known for its ability to absorb liquids and create a creamy texture when cooked              <div class="recipe-icons">
+                <article>
+                  <i class="fas fa-clock"></i>
+                  <h5>Prep Time</h5>
+                  <p>10 mins</p>
+                </article>
+                <article>
+                  <i class="far fa-clock"></i>
+                  <h5>Cook Time</h5>
+                  <p> 35 mins</p>
+                </article>
+                <article>
+                  <i class="fas fa-user-friends"></i>
+                  <h5>Serving</h5>
+                  <p>2 servings</p>
+                </article>
+              </div>
+            </article>
+          </section>
+          <!-- content -->
+          <section class="recipe-content">
+            <article>
+              <h5>Instructions</h5>
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 1</p>
+                  <div></div>
+                </header>
+                <p>
+                    Saute onion and mushrooms in oil and butter until soft.               
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 2</p>
+                  <div></div>
+                </header>
+                <p>
+                    Stir in rice and cook till transparent, add wine if it gets dry.                
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 3</p>
+                  <div></div>
+                </header>
+                <p>
+                    stir in 1 ladle of stock. Stir well, cover and simmer gently for several minutes or till rice looks dry.                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 4</p>
+                  <div></div>
+                </header>
+                <p>
+                    Add more stock, stir,cover and keep repeating this process till rice is just cooked (about 25 minutes)..               
+                 </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 5</p>
+                  <div></div>
+                </header>
+                <p>
+                    Taste and add a little salt.               
+                 </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 6</p>
+                  <div></div>
+                </header>
+                <p>
+                    Now remove from heat and stir in parmesan, parsley, extra butter if using and pepper to taste.              
+                 </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+            </article>
+            <article class="second-column">
+              <div>
+                <h5>Ingredients</h5>
+                <p class="single-ingredient">1 Tbsp Olive oil</p>
+                <p class="single-ingredient">25 gram Butter</p>                
+                <p class="single-ingredient">1 Onion, chopped</p>
+                <p class="single-ingredient">200 gram Mushrooms, sliced</p>
+                <p class="single-ingredient">1/2 cup Arborio rice</p>
+                <p class="single-ingredient">1/4 cup White wine (optional)</p>
+                <p class="single-ingredient">4 cups Hot chicken stock/veg stock</p>
+                <p class="single-ingredient">1/3 cup Parmesan cheese , grated</p>
+                <p class="single-ingredient">1 tbsp Parsley</p>
+                <p class="single-ingredient">25 gram Extra butter just before serving</p>
+                <p class="single-ingredient">Salt</p>
+                <p class="single-ingredient">Pepper</p>
+
+
+              </div>
+              <div>
+                <h5>Nutitional Value</h5>
+                <p class="single-tool">Calories &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250-350 calories</p>
+                <p class="single-tool">Total Fat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8-15 grams</p>
+                <p class="single-tool">Cholesterol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; less than 10 milligrams </p>
+                <p class="single-tool">Sodium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400-600 milligrams</p>
+                <p class="single-tool">Potassium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200-300 milligrams</p>
+                <p class="single-tool">Total Carbohydrate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40-50 grams</p>
+                <p class="single-tool">Protein &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6-8 grams</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address: </strong> 925 Main Street, Borivali(West), Mumbai-400092, India </p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Email: </strong>thereciperoom.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By The Recipe Room </h5>
+</footer>
+</body>
+
+</html>

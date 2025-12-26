@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <title>The Recipe Room </title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">The Recipe Room</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#recipe">Recipes</a></li>
+                <li><a href="index.html#categories">Categories</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="recipe.html">Pav Bhaji</a>
+                  <a href="mousse.html">Mousse</a>
+                  <a href="chickenlollipop.html">Chicken lollipops</a>
+                  <a href="samosa.html">Samosa</a>
+                  <a href="manchurian.html">Manchurian</a>
+                  <a href="khandvi.html">Khandvi</a>
+                </div>
+              </div></li>
+              <li><a href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="page">
+    <a name="home"></a>
+    <div class="hero">
+        <div class="content">
+            <h4>Unleash Your Culinary Passion</h4>
+            <h1>Discover Taste Sensations</h1>
+            <h3>Elevate Your Cooking Game</h3>
+            <a href="index.html#categories"><div class="button">Start Cooking</div></a>
+        </div>
+    </div>
+    <!----About Section Start---------------------------------->
+    <a name="about"></a>
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="main">
+            <img src="logo2.png">
+            <div class="about-text">
+                <p>Welcome to our recipe website, where culinary inspiration meets delicious creations! Whether you're a
+                    seasoned chef or a passionate home cook, we are here to ignite your taste buds and guide you on a
+                    delightful culinary journey. Our extensive collection of recipes covers a wide range of cuisines,
+                    from comforting classics to innovative fusion dishes. Each recipe is thoughtfully crafted, tested,
+                    and presented with step-by-step instructions, ensuring that even the novice cook can create
+                    extraordinary meals. We believe that cooking is an art form that brings people together, and our
+                    goal is to empower you to explore your culinary creativity and make every meal a masterpiece. So
+                    come on in, explore our diverse recipe collection, and let's embark on a delightful gastronomic
+                    adventure together!</p>
+
+            </div>
+        </div>
+    </section>
+    <!-----Recipes Section Start---------------------------------->
+    <a name="recipe"></a>
+    <div class="recipe">
+        <h2>Featured Recipes</h2>
+        <div class="box">
+            <div class="card">
+                <img src="pav bhaji.jpg">
+                <div class="content">
+                    <h3>Pav Bhaji</h3><br>
+                    <P>The ultimate comfort food that satisfies cravings.</P>
+                    <a href="recipe.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="pasta.jpg" alt="">
+                <div class="content">
+                    <h3>Creamy Boursin Pasta</h3><br>
+                    <P>If we have bread, if we have boursin, we are all right</P>
+                    <a href="creamyboursinpasta.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="chicken burrito.jpg" alt="">
+                <div class="content">
+                    <h3>Chicken Burrito</h3><br>
+                    <P>You can't go wrong with a classic chicken burrito.</P>
+                    <a href="chickenburrito .html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="chicken lollipop.jpg">
+                <div class="content">
+                    <h3>Chicken Lollipop</h3><br>
+                    <P>Crispy, crunchy and savoury-One bite and you'll be hooked.</P>
+                    <a href="chickenlollipop.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="samosa.jfif" alt="">
+                <div class="content">
+                    <h3>Samosa</h3><br>
+                    <P>Life is too short to say no to samosas.</P>
+                    <a href="samosa.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="khandvi.webp" alt="">
+                <div class="content">
+                    <h3>Khandvi</h3><br>
+                    <P>Try this lip-smacking gujju delicacy & let the spices awaken your senses.</P>
+                    <a href="khandvi.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="manchurian.jfif" alt="">
+                <div class="content">
+                    <h3>Manchurian</h3><br>
+                    <P>Missing great food? Your wait is over. Manchurian is here.</P>
+                    <a href="manchurian.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="mousse.webp" alt="">
+                <div class="content">
+                    <h3>Chocolate Mousse</h3><br>
+                    <P>All you need is love. But a little chocolate now and then doesn't hurt.</P>
+                    <a href="mousse.html"><button>View Recipe</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------categories section-------------------------------->
+    <a name="categories"></a>
+    <div class="categories">
+        <h2>categories</h2>
+        <div class="box">
+            <div class="ca-card">
+                <img src="rajma chawal.jpg" alt="">
+                <div class="content">
+                    <h3>Main Courses</h3><br>
+                    <p>Where every ingredient tells a story.</p>
+                    <a href="cusine.html"><button>More Recipes</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="lotus biscoff.jpeg" alt="">
+                <div class="content">
+                    <h3>Desserts</h3><br>
+                    <p>End the hunger, end the desert</p> 
+                    <a href="desserts.html"><button>More Recipes</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="protein salad.jpg" alt="">
+                <div class="content">
+                    <h3>Healthy Eats</h3><br>
+                    <p>Eat greens so that you can fit into your jeans.</p>
+                    <a href="healthy.html"><button>More Recipes</button></a>
+                </div>
+            </div>
+            <div class="ca-card">
+                <img src="baking.jfif" alt="">
+                <div class="content">
+                    <h3>Baking</h3><br>
+                    <p>So Sweet. So Good. Sure to bring smiles.</p>
+                    <a href="baking.html"><button>More Recipes</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <!------------contact section-------------------------->
+    <a name="contact"></a>
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address: </strong> 925 Main Street, Borivali(West), Mumbai-400092, India </p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Email: </strong>thereciperoom.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By The Recipe Room </h5>
+</footer>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+</body>
+
+</html>

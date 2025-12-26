@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+    <title> The Recipe Room </title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">The Recipe Room</div>
+        <div class="nav-bar">
+            <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#recipe">Recipes</a></li>
+              <li><a href="index.html#categories">Categories</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="login.html">Log In</a></li>
+              <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="recipe.html">Pav Bhaji</a>
+                  <a href="mousse.html">Mousse</a>
+                  <a href="chickenlollipop.html">Chicken lollipops</a>
+                  <a href="samosa.html">Samosa</a>
+                  <a href="manchurian.html">Manchurian</a>
+                  <a href="khandvi.html">Khandvi</a>
+                </div>
+              </div></li>
+            </ul>
+        </div>
+    </header>
+    <main class="page">
+        <div class="recipe-page">
+          <section class="recipe-hero">
+            <img
+              src="churros.jpeg" class="img recipe-hero-img"
+            />
+            <article class="recipe-info">
+              <h2>Churros with Chocolate Dipping Sauce</h2>
+              <p>
+                Churros are a popular Spanish and Latin American snack made from deep-fried dough. They are typically long, thin sticks of dough, often ridged or twisted, and can be enjoyed plain or coated in sugar. Churros are crispy on the outside and soft on the inside, with a slightly sweet flavor. They are commonly served with dipping sauces like chocolate or caramel and are a beloved treat at fairs, festivals, and as a street food. Churros have become popular worldwide and come in various shapes and sizes, but the classic Spanish churro remains a favorite.              </p>
+              <div class="recipe-icons">
+                <article>
+                  <i class="fas fa-clock"></i>
+                  <h5>Prep Time</h5>
+                  <p> 15-20 minutes</p>
+                </article>
+                <article>
+                  <i class="far fa-clock"></i>
+                  <h5>Cook Time</h5>
+                  <p>20-30 minutes</p>
+                </article>
+                <article>
+                  <i class="fas fa-user-friends"></i>
+                  <h5>Serving</h5>
+                  <p>2 servings</p>
+                </article>
+              </div>
+            </article>
+          </section>
+          <!-- content -->
+          <section class="recipe-content">
+            <article>
+              <h5>Instructions</h5>
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 1</p>
+                  <div></div>
+                </header>
+                <p>
+                    In a saucepan, combine the water, sugar, salt, and 2 tablespoons of vegetable oil. Bring it to a boil and remove from heat. Stir in the flour until the mixture forms a ball of dough.
+
+
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 2</p>
+                  <div></div>
+                </header>
+                <p>
+                    In a separate deep saucepan or deep fryer, heat vegetable oil to 375°F (190°C).
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 3</p>
+                  <div></div>
+                </header>
+                <p>
+                    Transfer the churro dough to a pastry bag fitted with a star tip. You can also use a plastic bag with a small hole cut in the corner. Squeeze out 4-6 inch (10-15 cm) strips of dough directly into the hot oil, cutting them with scissors. Be cautious not to overcrowd the pan.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 4</p>
+                  <div></div>
+                </header>
+                <p>
+                    Fry the churros until they are golden brown, about 2-3 minutes per side.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 5</p>
+                  <div></div>
+                </header>
+                <p>
+                    Remove the churros from the oil and drain them on a paper towel to remove excess oil. Combine 1/2 cup of sugar and the cinnamon in a bowl. Roll each churro in the sugar-cinnamon mixture until coated.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 6</p>
+                  <div></div>
+                </header>
+                <p>
+                    In a small saucepan, heat the heavy cream over medium heat until it begins to simmer. Remove from heat and add the chopped chocolate. Let it sit for a minute to melt, then stir until smooth. Stir in the vanilla extract.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 7</p>
+                  <div></div>
+                </header>
+                <p>
+                    Serve the warm churros with the chocolate dipping sauce on the side for dipping.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+            </article>
+            <article class="second-column">
+              <div>
+                <h5>Ingredients</h5>
+                <h5>For the Churros:</h5>
+                <p class="single-ingredient">1 cup water</p>
+                <p class="single-ingredient">2 1/2 tablespoons white sugar</p>                
+                <p class="single-ingredient">1/2 teaspoon salt</p>
+                <p class="single-ingredient">2 tablespoons vegetable oil</p>
+                <p class="single-ingredient">1 cup all-purpose flour</p>
+                <p class="single-ingredient">Vegetable oil, for frying</p>
+                <p class="single-ingredient">1/2 cup white sugar</p>
+                <p class="single-ingredient">1 teaspoon ground cinnamon</p><br>
+                <h5>For the Chocolate Dipping Sauce:</h5>
+                <p class="single-ingredient">1/2 cup heavy cream</p>
+                <p class="single-ingredient">4 ounces semi-sweet chocolate, finely chopped</p>
+                <p class="single-ingredient">1/2 teaspoon pure vanilla extract</p>
+              </div>
+              <div>
+                <h5>Nutitional Value</h5>
+                <p class="single-tool">Total Sugar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20-30 grams</p>
+                <p class="single-tool">Calories &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300-400 calories</p>
+                <p class="single-tool">Total Fat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15-20 grams</p>
+                <p class="single-tool">Cholesterol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; not a significant source</p>
+                <p class="single-tool">Sodium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150-300 milligrams</p>
+                <p class="single-tool">Potassium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not a significant source</p>
+                <p class="single-tool">Total Carbohydrate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40-60 grams</p>
+                <p class="single-tool">Protein &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2-5 grams</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address: </strong> 925 Main Street, Borivali(West), Mumbai-400092, India </p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Email: </strong>thereciperoom.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By The Recipe Room </h5>
+</footer>
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+</body>
+
+</html>

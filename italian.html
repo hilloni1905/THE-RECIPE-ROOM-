@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+        <a href="index.html"><title>The Recipe Room </a></title>
+    </head>
+
+<body>
+    <header>
+        <div class="logo">The Recipe Room</div>
+        <div class="nav-bar">
+            <ul>
+              <li><a href="index.html#home">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="index.html#recipe">Recipes</a></li>
+              <li><a href="index.html#categories">Categories</a></li>
+              <li><a href="index.html#contact">Contact</a></li>
+              <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="recipe.html">Pav Bhaji</a>
+                  <a href="mousse.html">Mousse</a>
+                  <a href="chickenlollipop.html">Chicken lollipops</a>
+                  <a href="samosa.html">Samosa</a>
+                  <a href="manchurian.html">Manchurian</a>
+                  <a href="khandvi.html">Khandvi</a>
+                </div>
+              </div></li>
+              <li><a href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- RECİPE CARDS -->
+    <div class="box">
+      <div class="card">
+          <img src="pasta.jpg" alt="">
+          <div class="content">
+              <h3>Creamy Boursin Pasta</h3><br>
+              <P>If we have bread, if we have boursin, we are all right</P>
+              <a href="creamyboursinpasta.html"><button>View Recipe</button></a>
+          </div>
+      </div>
+      <div class="card">
+        <img src="mushroom.jpg" alt="">
+        <div class="content">
+            <h3>Mushroom Risotto</h3><br>
+            <P>Mushrooms and Rice, a Perfect Match in Risotto.</P>
+            <a href="mushroom.html"><button>View Recipe</button></a>
+        </div>
+    </div>
+  </div>
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address: </strong> 925 Main Street, Borivali(West), Mumbai-400092, India </p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Email: </strong>thereciperoom.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By The Recipe Room </h5>
+</footer>
+<script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="main.css">
+    <a href="index.html"><title>The Recipe Room</a> </title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">The Recipe Room</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#recipe">Recipes</a></li>
+                <li><a href="index.html#categories">Categories</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+              <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Search</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                  <a href="recipe.html">Pav Bhaji</a>
+                  <a href="mousse.html">Mousse</a>
+                  <a href="chickenlollipop.html">Chicken lollipops</a>
+                  <a href="samosa.html">Samosa</a>
+                  <a href="manchurian.html">Manchurian</a>
+                  <a href="khandvi.html">Khandvi</a>
+                </div>
+              </div></li>
+              <li><a href="login.html">Log In</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="page">
+        <div class="recipe-page">
+          <section class="recipe-hero">
+            <img
+              src="pav bhaji.jpg" class="img recipe-hero-img"
+            />
+            <article class="recipe-info">
+              <h2>Pav Bhaji</h2>
+              <p>
+                A world-famous fast food dish or perhaps the king of street food from the western state of Maharashtra. 
+                The recipe is an amalgamation of vegetables spiced with a unique blend of spices known as pav bhaji masala and served with a soft bread roll aka pav. 
+                The recipe is typically served as a complete meal for lunch and dinner but has transformed into a popular street food recipe in India.
+              </p>
+              <div class="recipe-icons">
+                <article>
+                  <i class="fas fa-clock"></i>
+                  <h5>Prep Time</h5>
+                  <p>15 min.</p>
+                </article>
+                <article>
+                  <i class="far fa-clock"></i>
+                  <h5>Cook Time</h5>
+                  <p>25 min.</p>
+                </article>
+                <article>
+                  <i class="fas fa-user-friends"></i>
+                  <h5>Serving</h5>
+                  <p>2 servings</p>
+                </article>
+              </div>
+            </article>
+          </section>
+          <!-- content -->
+          <section class="recipe-content">
+            <article>
+              <h5>Instructions</h5>
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 1</p>
+                  <div></div>
+                </header>
+                <p>
+                    Take all the vegetables listed in the ingredients. 
+                    Wash them in running water and cut them into small pieces.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 2</p>
+                  <div></div>
+                </header>
+                <p>
+                    Transfer chopped potato, cauliflower, carrot and green peas into a 2-3 liter capacity pressure cooker. 
+                    Add 1/2 cup water and salt to taste  .
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 3</p>
+                  <div></div>
+                </header>
+                <p>
+                    Close the pressure cooker with a lid and cook over medium flame for 2-whistles. 
+                    Turn off the flame. Open the lid after pressure releases naturally; 
+                    it will take around 5-7 minutes.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 4</p>
+                  <div></div>
+                </header>
+                <p>Mash the boiled vegetables gently with potato masher or using the backside of a large spoon until little chunky texture. 
+                    You can mash cooked veggies into a texture you like – with small chunks or smooth with no chunks at all. 
+                    The texture of your bhaji would depend on how you mashed the veggies.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 5</p>
+                  <div></div>
+                </header>
+                <p>Heat 2-tablespoons oil and 2-tablespoons butter together in a pan over medium flame. 
+                    Add chopped onion and ginger-garlic paste. 
+                    Sauté until onion turns translucent.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 6</p>
+                  <div></div>
+                </header>
+                <p>Add chopped capsicum, chopped tomato and salt.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 7</p>
+                  <div></div>
+                </header>
+                <p>Sauté until tomatoes and capsicum turn soft.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 8</p>
+                  <div></div>
+                </header>
+                <p>Add 1½ teaspoons red chilli powder, 1/4 teaspoon turmeric powder, 
+                    1-teaspoon cumin-coriander powder and 
+                    1-teaspoon readymade pav bhaji masala powder.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 9</p>
+                  <div></div>
+                </header>
+                <p>Stir and cook for a minute.Add 3/4 cup water, 
+                    mix well and cook for 2-3 minutes.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 10</p>
+                  <div></div>
+                </header>
+                <p>Add boiled and mashed vegetables and 1-teaspoon lemon juice.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 11</p>
+                  <div></div>
+                </header>
+                <p>Mix well and cook for 4-5 minutes. 
+                    Taste for the salt at this stage and add more if required. 
+                    Turn off the flame. Add chopped coriander leaves and mix well. Bhaji is ready for serving.
+
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 12</p>
+                  <div></div>
+                </header>
+                <p>Cut the pav buns horizontally into halves. 
+                    Heat tava over medium flame. 
+                    Add a tablespoon of butter and place halved pav buns over it. Shallow fry both sides until light brown spots appear, 
+                    it will take around 30 seconds for each side to turn light brown. Transfer to the plate. Shallow fry remaining pavs.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+              <!-- single instruction -->
+              <div class="single-instruction">
+                <header>
+                  <p>Step 13</p>
+                  <div></div>
+                </header>
+                <p>Transfer prepared bhaji to a serving bowl and garnish with a cube of butter. 
+                    Serve hot with butter roasted pav, sliced onion and lemon wedges.
+                </p>
+              </div>
+              <!-- end of single instruction -->
+            </article>
+            <article class="second-column">
+              <div>
+                <h5>Ingredients</h4>
+                <p class="single-ingredient">2 medium Potatoes (approx. 1½ cups chopped)</p>
+                <p class="single-ingredient">1/2 cup Green Peas (fresh or frozen)</p>                
+                <p class="single-ingredient">3/4 cup chopped Cauliflower (approx. 1/4 head of cauliflower)</p>
+                <p class="single-ingredient">1/2 cup chopped Carrot (approx. 1 medium)</p>
+                <p class="single-ingredient">1 large Onion, chopped (approx. 3/4 cup)</p>
+                <p class="single-ingredient">1 tablespoon Ginger Garlic Paste</p>
+                <p class="single-ingredient">2 medium Tomatoes, chopped (approx. 1¼ cup)</p>
+                <p class="single-ingredient">1/2 cup chopped Capsicum (approx. 1 small)</p>
+                <p class="single-ingredient">1½ teaspoons Red Chilli Powder (or less)</p>
+                <p class="single-ingredient">1/4 teaspoon Turmeric Powder</p>
+                <p class="single-ingredient">1 teaspoon Cumin-Coriander Powder, optional</p>
+                <p class="single-ingredient">1 teaspoon Readymade Pav Bhaji Masala Powder</p>
+                <p class="single-ingredient">1 teaspoon Lemon Juice</p>
+                <p class="single-ingredient">Salt to taste</p>
+                <p class="single-ingredient">2 tablespoons Oil + 2 tablespoons Butter</p>
+                <p class="single-ingredient">Butter for serving</p>
+                <p class="single-ingredient">2 tablespoons finely chopped Coriander Leaves</p>
+                <p class="single-ingredient">6 Pav Buns, for serving</p>
+              </div>
+              <div>
+                <h5>Nutitional Value</h5>
+                <p class="single-tool">Calories &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 390</p>
+                <p class="single-tool">Total Fat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11.0g</p>
+                <p class="single-tool">Cholesterol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.0mg</p>
+                <p class="single-tool">Sodium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;589mg</p>
+                <p class="single-tool">Potassium &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;813.1mg</p>
+                <p class="single-tool">Total Carbohydrate &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;63g</p>
+                <p class="single-tool">Protein &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12g</p>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address: </strong> 925 Main Street, Borivali(West), Mumbai-400092, India </p>
+            <p><strong>Phone: </strong>1234567890</p>
+            <p><strong>Email: </strong>thereciperoom.com</p>
+        </div>
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"  required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+        <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+    </div>
+    <h5>CopyRight © 2023 By The Recipe Room </h5>
+</footer>
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  function filterFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementById("myDropdown");
+    a = div.getElementsByTagName("a");
+    for (i = 0; i < a.length; i++) {
+      txtValue = a[i].textContent || a[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        a[i].style.display = "";
+      } else {
+        a[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+</body>
+
+</html>
